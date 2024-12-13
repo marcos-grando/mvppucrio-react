@@ -46,7 +46,7 @@ Podemos dividir o projeto em 4 principais partes:
    - Interatividade ao clicar em dias específicos.
 
 4. **Seção Notícias:**
-   - Carrossel de notícias destacadas.
+   - Carrossel de notícias destacadas (indisponível para Mobile).
    - Sistema de navegação e estado global para gerenciar seleções.
    - Lista completa de notícias com navegação para reportagem individual.
     **Página /noticias/:slug**
