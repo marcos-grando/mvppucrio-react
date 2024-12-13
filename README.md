@@ -1,7 +1,6 @@
 ### Desenvolvimento Full Stack - PUC-Rio
-# MVP Front End com React, 
- 
-# Projeto Cantabile 🎻
+
+# MVP Front End com React, Projeto Cantabile 🎻
 
 O objetivo do MVP foi desenvolver, utilizando React, um ambiente para divulgar o "Projeto Cantabile", que promove uma semana sinfônica no Teatro Municipal.
 A semana sinfônica conta com a presença de orquestras, bandas e artistas de domingo à sábado.
