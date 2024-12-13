@@ -47,6 +47,7 @@ Podemos dividir o projeto em 4 principais partes:
 
 ## 📂 Estrutura do Projeto
 
+```
 mvppucrio/
 ├── estilos
 │   ├── estilo-banner/      # estilização da section .banner
@@ -73,6 +74,7 @@ mvppucrio/
 ├── public                  # Arquivos públicos (favicon, etc.)
 ├── package.json            # Dependências do projeto
 └── vite.config.js          # Configuração do Vite
+```
 
 OBS: Em /public, há presença de .htaccess e 404.html, utilizados enquanto tentava aprender a hospedar esse projeto no ar (por curiosidade).
 
