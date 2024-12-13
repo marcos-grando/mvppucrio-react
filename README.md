@@ -20,6 +20,7 @@ O site exibe informações das apresentações de cada dia e notícias relaciona
 
 Podemos dividir o projeto em 4 principais partes:
 
+```
 1. **Seção Banner:**
    - Slide com as principais atrações do evento.
    - Miniaturas (thumbnails) interativas de cada atração.
@@ -42,6 +43,7 @@ Podemos dividir o projeto em 4 principais partes:
    - Lista completa de notícias com navegação para reportagem individual.
     **Página /noticias/:slug**
     - Página completa com a reportagem completa da notícia clicada.
+```
 
 ---
 
@@ -86,14 +88,19 @@ Necessário baixar o projeto (ou clonar o repositório) e navegar até a raiz do
 Em seguida:
 
 Instale as dependências:
-```npm install```
+```
+npm install
+```
 
 Inicie o servidor de desenvolvimento:
-```npm run dev```
+```
+npm run dev
+```
 
 Acesse no navegador:
-```http://localhost:3000```
-
+```
+http://localhost:3000
+```
 
 ---
 
