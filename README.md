@@ -57,7 +57,7 @@ mvppucrio/
 │   ├── estilo-calendar/    # estilização da section .calendar
 │   ├── estilo-newsnow/     # estilização da section .newsnow
 │   ├── estilo-singlenews/  # estilização da section/page .singlenews
-│   └── style.css           # estilos gerais (inclui footer)
+│   └── style.css           # estilos base (inclui footer)
 ├── src
 │   ├── components          # Componentes reutilizáveis
 │   │   ├── banner/         # Componentes específicos para o banner
