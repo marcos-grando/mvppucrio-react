@@ -1,0 +1,239 @@
+
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content p.ndia {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--cor9);
+}
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card {
+    margin-top: 25px;
+
+    display: flex;
+    flex-direction: row;
+}
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date {
+    background-color: var(--cor7);
+    border: 1px solid var(--cor9);
+    border-radius: 3px;
+    height: 60px; width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    margin-right: 10px;
+
+    line-height: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .arrowright {
+    background-color: var(--cor7);
+    border: 1px solid var(--cor9);
+    border-left: none;
+    border-bottom: none;
+    height: 12px; width: 12px;
+    max-width: 12px;
+    min-width: 12px;
+
+    transform: rotate(45deg);
+    position: relative;
+    top: 12px;
+    right: 17px;
+}
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(1) {
+    color: var(--cor4);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(2) {
+    color: var(--cor4);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info {
+    padding-top: 2px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+}
+
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(1) {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--cor4);
+}
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(2) {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--cor2);
+}
+
+/*  READY HERE V  */
+
+@media (max-width: 351.99px) {
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date {
+        height: 45px; width: 45px;
+        min-width: 45px;
+        max-width: 45px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .arrowright {
+        height: 8px; width: 8px;
+        max-width: 8px;
+        min-width: 8px;
+        right: 15px;
+    }
+
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content p.ndia {
+        font-size: 0.64rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(1) {
+        font-size: 0.64rem;
+        font-weight: 400;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(2) {
+        font-size: 0.74rem;
+        font-weight: 600;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(1) {
+        font-size: 0.74rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(2) {
+        font-size: 0.64rem;
+    }
+}
+@media (min-width: 352px) and (max-width: 575.99px) {
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date {
+        height: 50px; width: 50px;
+        min-width: 50px;
+        max-width: 50px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .arrowright {
+        height: 9px; width: 9px;
+        max-width: 9px;
+        min-width: 9px;
+        right: 15px;
+    }
+
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content p.ndia {
+        font-size: 0.68rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(1) {
+        font-size: 0.68rem;
+        font-weight: 400;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(2) {
+        font-size: 0.78rem;
+        font-weight: 600;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(1) {
+        font-size: 0.78rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(2) {
+        font-size: 0.68rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date {
+        height: 55px; width: 55px;
+        min-width: 55px;
+        max-width: 55px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .arrowright {
+        height: 10px; width: 10px;
+        max-width: 10px;
+        min-width: 10px;
+        right: 15px;
+    }
+
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content p.ndia {
+        font-size: 0.72rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(1) {
+        font-size: 0.72rem;
+        font-weight: 400;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(2) {
+        font-size: 0.82rem;
+        font-weight: 600;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(1) {
+        font-size: 0.82rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(2) {
+        font-size: 0.72rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date {
+        height: 55px; width: 55px;
+        min-width: 55px;
+        max-width: 55px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .arrowright {
+        height: 11px; width: 11px;
+        max-width: 11px;
+        min-width: 11px;
+        right: 15px;
+    }
+
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content p.ndia {
+        font-size: 0.76rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(1) {
+        font-size: 0.76rem;
+        font-weight: 400;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(2) {
+        font-size: 0.86rem;
+        font-weight: 600;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(1) {
+        font-size: 0.86rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(2) {
+        font-size: 0.76rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1279.99px) {
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date {
+        height: 60px; width: 60px;
+        min-width: 60px;
+        max-width: 60px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .arrowright {
+        height: 11px; width: 11px;
+        max-width: 11px;
+        min-width: 11px;
+        right: 15px;
+    }
+
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content p.ndia {
+        font-size: 0.8rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(1) {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-date p:nth-child(2) {
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(1) {
+        font-size: 0.9rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-content .event-card .card-info p:nth-child(2) {
+        font-size: 0.8rem;
+    }
+}
+
+

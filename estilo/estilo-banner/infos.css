@@ -1,0 +1,215 @@
+
+/* Configs das informações do banner */ /* autor > evento  &  title > artista */
+.carousel .list .item .content {
+    width: 80%; 
+    max-width: 1280px;
+    padding-right: 30%;
+
+    color: var(--cor1);
+    text-shadow: 0 5px 10px var(--cor0);
+
+    position: absolute;
+    top: 20%;
+    box-sizing: border-box;
+}
+.carousel .list .item .content .evento {
+    font-weight: 600;
+    font-size: 1.15rem;
+    letter-spacing: 15px;
+}
+.carousel .list .item .content .artista,
+.carousel .list .item .content .topic {
+    font-weight: bold;
+    list-style: 1.3em;
+    white-space: nowrap;
+}
+.carousel .list .item .content .artista {
+    font-size: 5rem;
+}
+.carousel .list .item .content .topic{
+    font-size: 4.4rem;
+}
+.carousel .list .item .content .topic {
+    color: var(--cor7);
+}
+.carousel .list .item .content .desc {
+    margin: 5px 0;
+
+    font-size: 0.95rem;
+    color: var(--cor1);
+    text-shadow: 1px 1px 1px var(--cor0), 1px -1px 1px var(--cor0), -1px -1px 1px var(--cor0), -1px 1px 1px var(--cor0);
+}
+
+/* Animação + config de 'delay' para cada info */
+.carousel .list .item:nth-child(1) .evento,
+.carousel .list .item:nth-child(1) .artista,
+.carousel .list .item:nth-child(1) .topic,
+.carousel .list .item:nth-child(1) .desc,
+.carousel .list .item:nth-child(1) .buttons {
+    opacity: 0;
+    filter: blur(20px);
+    transform: translateY(50px);
+    animation: showContent 0.5s 1s linear 1 forwards;
+}
+@keyframes showContent {
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}
+.carousel .list .item:nth-child(1) .artista {
+    animation-delay: 0.3s;
+}
+.carousel .list .item:nth-child(1) .topic {
+    animation-delay: 0.4s;
+}
+.carousel .list .item:nth-child(1) .desc {
+    animation-delay: 0.6s;
+}
+.carousel .list .item:nth-child(1) .buttons {
+    animation-delay: 0.8s;
+}
+
+@media (max-width: 351.99px) {
+    .carousel .list .item .content {
+        padding-right: 0;
+    }
+    .carousel .list .item .content .evento {
+        font-size: 0.6rem;
+        letter-spacing: 6px;
+    }
+    .carousel .list .item .content .artista,
+    .carousel .list .item .content .topic {
+        /* font-size: 3em; */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .carousel .list .item .content .artista {
+        font-size: 2.25rem;
+    }
+    .carousel .list .item .content .topic {
+        font-size: 2rem;
+    }
+
+    .carousel .list .item .content .desc {
+        margin: 5px 0;
+    
+        font-size: 0.64rem;
+    }
+}
+@media (min-width: 352px) and (max-width: 575.99px) {
+    .carousel .list .item .content {
+        padding-right: 0;
+    }
+    .carousel .list .item .content .evento {
+        font-size: 0.65rem;
+        letter-spacing: 7px;
+    }
+    .carousel .list .item .content .artista,
+    .carousel .list .item .content .topic {
+        /* font-size: 3.4em; */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .carousel .list .item .content .artista {
+        font-size: 2.55rem;
+    }
+    .carousel .list .item .content .topic {
+        font-size: 2.25rem;
+    }
+    .carousel .list .item .content .desc {
+        margin: 5px 0;
+    
+        font-size: 0.74rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .carousel .list .item .content {
+        padding-right: 0;
+    }
+    .carousel .list .item .content .evento {
+        font-size: 0.8rem;
+        letter-spacing: 8px;
+    }
+    .carousel .list .item .content .artista,
+    .carousel .list .item .content .topic {
+        /* font-size: 4em; */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .carousel .list .item .content .artista {
+        font-size: 3rem;
+    }
+    .carousel .list .item .content .topic {
+        /* font-size: 3.5em; */
+        font-size: 2.65rem;
+
+    }
+    .carousel .list .item .content .desc {
+        margin: 5px 0;
+    
+        font-size: 0.84rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .carousel .list .item .content {
+        padding-right: 0;
+    }
+    .carousel .list .item .content .evento {
+        font-size: 0.85rem;
+        letter-spacing: 9.5px;
+    }
+    .carousel .list .item .content .artista,
+    .carousel .list .item .content .topic {
+        /* font-size: 4em; */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .carousel .list .item .content .artista {
+        font-size: 3.4rem;
+    }
+    .carousel .list .item .content .topic {
+        /* font-size: 3.5em; */
+        font-size: 3rem;
+
+    }
+    .carousel .list .item .content .desc {
+        margin: 5px 0;
+    
+        font-size: 0.88rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1279.99px) {
+    .carousel .list .item .content {
+        padding-right: 0;
+    }
+    .carousel .list .item .content .evento {
+        font-size: 0.92rem;
+        letter-spacing: 11px;
+    }
+    .carousel .list .item .content .artista,
+    .carousel .list .item .content .topic {
+        /* font-size: 4em; */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .carousel .list .item .content .artista {
+        font-size: 3.85rem;
+    }
+    .carousel .list .item .content .topic {
+        /* font-size: 3.5em; */
+        font-size: 3.4rem;
+
+    }
+    .carousel .list .item .content .desc {
+        margin: 5px 0;
+    
+        font-size: 0.92rem;
+    }
+}

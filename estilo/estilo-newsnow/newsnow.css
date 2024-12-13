@@ -1,0 +1,250 @@
+.newsnow {
+    background-color: var(--cor66);
+    height: auto; width: 100%;
+    padding: 0 0 30px 0;
+    /* padding-bottom: 30px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsnow .onlypage {
+    height: 50vh; width: 100%;
+    max-height: 600px;
+    margin-bottom: auto;
+    position: relative;
+}
+.newsnow .onlypage header {
+    background-color: var(--cor000);
+}
+.newsnow .onlypage img {
+    height: 100%; width: 100%;
+    object-fit: cover;
+    object-position: 100% 64%;
+}
+
+.newsnow .newsnow-container {
+    /* border: 1px solid red; */
+    height: 100%; width: 100%;
+    max-width: 1280px;
+    padding: 0 30px;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.newsnow .newsnow-container .all-title {
+    /* border: 1px solid red; */
+    border-bottom: 2px ridge var(--cor4);
+    height: auto; width: 100%;
+    padding: 40px 0 10px 0;
+    margin-bottom: 10px;
+
+    line-height: 1;
+    display: flex;
+    align-items: flex-end;
+}
+.newsnow .newsnow-container .all-title h1,
+.newsnow .newsnow-container .all-title h2 {
+
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.newsnow .newsnow-container .all-title h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--cor2);
+
+    text-shadow: 1px 1px 5px var(--cor66), 1px -1px 5px var(--cor66), -1px 1px 5px var(--cor66), -1px -1px 5px var(--cor66);
+
+    margin-left: 10px;
+    position: absolute;
+}
+.newsnow .newsnow-container .all-title h1 {
+    font-size: 3.2rem;
+    color: var(--cor66);
+    opacity: 0.3;
+
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 0px var(--cor7), 1px -1px 0px var(--cor7), -1px 1px 0px var(--cor7), -1px -1px 0px var(--cor7);
+}
+
+.newsnow .newsnow-container .news-slide {
+    /* border: 1px solid red; */
+    height: 240px; width: 100%;
+    margin: 110px 0 40px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsnow .newsnow-container .news-slide .last-news {
+    /* border: 1px solid blue; */
+    width: 90%;
+    margin-bottom: 28px;
+}
+.newsnow .newsnow-container .news-slide .last-news p{
+    background-color: var(--cor6);
+    border-radius: 1px;
+    padding: 5px 30px 1px 5px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Work Sans';
+    color: var(--cor4);
+
+    position: absolute;
+    transform: translateY(-150%);
+}
+
+.newsnow .newsnow-container .news-slide .slide-container {
+    /* border: 1px solid var(--cor4); */
+    border-radius: 1px;
+    border-top: none;
+    border-bottom: none;
+    height: 90%; width: 100%;
+
+    overflow: hidden;
+}
+.newsnow .newsnow-container .news-slide .slide-container .slide {
+    height: 100%; width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: relative;
+}
+
+.newsnow .newsnow-container .news-slide .arrows {
+    width: 100%; max-width: 1280px;
+    padding: 0 10px 0 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    z-index: 100;
+}
+.newsnow .newsnow-container .news-slide .arrows button {
+    border: none;
+    background-color: transparent;
+    height: 30px; width: 30px;
+    border-radius: 50%;
+
+    font-family: monospace;
+    color: var(--cor4);
+    font-weight: 600;
+    font-size: 2.1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0.9;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.newsnow .newsnow-container .news-slide .arrows.inactive button {
+    display: none;
+}
+.newsnow .newsnow-container .news-slide .arrows button:nth-child(1):hover {
+    transform: translateX(-4px);
+}
+.newsnow .newsnow-container .news-slide .arrows button:nth-child(2):hover {
+    transform: translateX(4px);
+}
+
+
+@media (max-width: 351.99px) {
+    .newsnow .onlypage header nav {
+        justify-content: center;
+        padding-left: 0;
+    }
+    .newsnow .onlypage header nav a {    
+        padding: 0 10px;
+        margin-right: 0;
+        font-size: 0.65rem;
+    }
+    .newsnow .newsnow-container .news-slide {
+        display: none;
+    }
+    .newsnow .newsnow-container .all-title h2 {
+        font-size: 1.3rem;
+    }
+    .newsnow .newsnow-container .all-title h1 {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 352px) and (max-width: 575.99px) {
+    .newsnow .onlypage header nav {
+        justify-content: center;
+        padding: 0;
+    }
+    .newsnow .onlypage header nav a {
+        padding: 0 15px;
+        margin-right: 0;
+        font-size: 0.75rem;
+    }
+    .newsnow .newsnow-container .news-slide {
+        display: none;
+    }
+    .newsnow .newsnow-container .all-title h2 {
+        font-size: 6.2vw;
+    }
+    .newsnow .newsnow-container .all-title h1 {
+        font-size: 7.5vw;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .newsnow .onlypage header {
+        justify-content: center;
+    }
+    .newsnow .onlypage header nav {
+        justify-content: center;
+        padding: 0;
+    }
+    .newsnow .onlypage header nav a {
+        padding: 0 20px;
+    }
+    .newsnow .newsnow-container .news-slide {
+        display: none;
+    }
+    .newsnow .newsnow-container .all-title h2 {
+        font-size: 2.22rem;
+    }
+    .newsnow .newsnow-container .all-title h1 {
+        font-size: 2.72rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .newsnow .onlypage header nav {
+        justify-content: center;
+        padding: 0;
+    }
+    .newsnow .onlypage header nav a {
+        font-size: 0.85rem;
+        padding: 0 20px;
+    }
+    .newsnow .newsnow-container .news-slide {
+        display: none;
+    }
+    .newsnow .newsnow-container .all-title h2 {
+        font-size: 2.22rem;
+    }
+    .newsnow .newsnow-container .all-title h1 {
+        font-size: 2.72rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1279.99px) {
+    .newsnow .newsnow-container .all-title h2 {
+        font-size: 2.22rem;
+    }
+    .newsnow .newsnow-container .all-title h1 {
+        font-size: 2.72rem;
+    }
+}

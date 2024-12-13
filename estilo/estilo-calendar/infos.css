@@ -1,0 +1,121 @@
+.calendar .calendar-container .calendar-content .calendar-infos .infos-rightarrow {
+    border: 1px solid var(--cor2);
+    border-right: none;
+    border-top: none;
+    background-color: var(--cor3);
+    height: 15px; width: 15px;
+    
+    transform: rotate(45deg);
+    position: relative;
+    left: 18px;
+}
+
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container {
+    height: 100%; width: 100%;
+}
+
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date {
+    margin-bottom: 20px;
+    color: var(--cor2);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .bi {
+    font-size: 2rem;
+    margin-right: 10px;
+
+    position: relative;
+    top: 1px;
+}
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date {
+    display: flex;
+    flex-direction: column;
+}
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(1) {
+    font-size: 0.9rem;
+}
+.calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(2) {
+    font-size: 0.8rem;
+}
+
+/*  READY HERE V */
+
+@media (max-width: 351.99px) {
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-rightarrow {
+        display: none;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .bi {
+        font-size: 1.9rem;
+        margin-right: 10px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(1) {
+        font-size: 0.74rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(2) {
+        font-size: 0.64rem;
+    }
+}
+@media (min-width: 352px) and (max-width: 575.99px) {
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-rightarrow {
+        display: none;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .bi {
+        font-size: 1.92rem;
+        margin-right: 10px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(1) {
+        font-size: 0.78rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(2) {
+        font-size: 0.68rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-rightarrow {
+        display: none;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .bi {
+        font-size: 1.94rem;
+        margin-right: 10px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(1) {
+        font-size: 0.82rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(2) {
+        font-size: 0.72rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-rightarrow {
+        display: none;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .bi {
+        font-size: 1.96rem;
+        margin-right: 10px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(1) {
+        font-size: 0.86rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(2) {
+        font-size: 0.76rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1279.99px) {
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-rightarrow {
+        display: none;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .bi {
+        font-size: 1.98rem;
+        margin-right: 10px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(1) {
+        font-size: 0.9rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-infos .infos-container .infos-date .date p:nth-child(2) {
+        font-size: 0.8rem;
+    }
+}

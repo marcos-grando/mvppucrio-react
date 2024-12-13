@@ -1,0 +1,161 @@
+
+.calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays {
+    width: auto;
+    margin-bottom: 10px;
+
+    grid-column: 1 / 8;
+    grid-row: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays .weekday {
+    height: 100%; width: calc(100% / 7);
+    aspect-ratio: 1.5 / 1;
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--cor2);
+    opacity: 0.9;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays {
+    width: auto;
+
+    grid-column: 1 / 8;
+    grid-row: 3;
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day {
+    aspect-ratio: 1 / 1;
+    margin: 3px;
+
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor4);
+
+    font-family: 'Elaine Sans';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+.calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day.today {
+    border: 1px solid var(--cor4);
+    border-radius: 50%;
+
+    color: var(--cor4);
+    font-weight: 400;
+}
+.calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day.week-event {
+    background-color: var(--cor7);
+    border: 1px solid var(--cor7);
+
+    font-weight: 400;
+    color: var(--cor4);
+
+    cursor: pointer;
+}
+.calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day.week-event:hover {
+    border: 1px solid var(--cor9);
+}
+.calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day.week-event.selected {
+    font-weight: 500;
+    border: 1px solid var(--cor4);
+}
+
+/*  READY HERE V */
+
+@media (max-width: 351.99px) {
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays {
+        margin-bottom: 2px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays .weekday {
+        font-size: 0.74rem;
+        font-weight: 400;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day {
+        margin: 2px;
+        font-size: 0.84rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day.week-event {
+        font-weight: 400;
+    }
+}
+@media (min-width: 352px) and (max-width: 575.99px) {
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays {
+        margin-bottom: 3px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays .weekday {
+        font-size: 0.78rem;
+        font-weight: 400;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day {
+        margin: 3px;
+        font-size: 0.88rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day.week-event {
+        font-weight: 400;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays {
+        margin-bottom: 4px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays .weekday {
+        font-size: 0.82rem;
+        font-weight: 400;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day {
+        margin: 3px;
+        font-size: 0.92rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day.week-event {
+        font-weight: 400;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays {
+        margin-bottom: 4px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays .weekday {
+        font-size: 0.86rem;
+        font-weight: 400;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day {
+        margin: 3px;
+        font-size: 0.96rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day.week-event {
+        font-weight: 400;
+    }
+}
+@media (min-width: 992px) and (max-width: 1279.99px) {
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays {
+        margin-bottom: 5px;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-weekdays .weekday {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day {
+        margin: 3px;
+        font-size: 1rem;
+    }
+    .calendar .calendar-container .calendar-content .calendar-dates .calendar-month .calendar-monthdays .div-day.week-event {
+        font-weight: 400;
+    }
+}

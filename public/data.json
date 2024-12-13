@@ -1,0 +1,333 @@
+{
+    "headerLinks": [
+        {
+            "opt": "Home"
+        },
+        {
+            "opt": "Sobre Nós"
+        },
+        {
+            "opt": "Calendário"
+        },
+        {
+            "opt": "Notícias"
+        }
+    ],
+    "carouselItems": [
+        {
+            "img": "/imgs/dupla.JPG",
+            "evento": "SEMANA SINFÔNICA",
+            "artista": "Amy & Gug",
+            "topic": "Dupla 'Sinforock'",
+            "desc": "Amy e Gug, da dupla Sinforock, combinam o estilo sinfônico e clássico com o ritmo do rock'n'roll."
+        },
+        {
+            "img": "/imgs/violino.JPG",
+            "evento": "SEMANA SINFÔNICA",
+            "artista": "Músico George",
+            "topic": "Violonista Clássico",
+            "desc": "O violonista George realizará um tributo ao mestre Yehudi Menuhin, revivendo sua genialidade em uma apresentação emocionante."
+        },
+        {
+            "img": "/imgs/orquestra.JPG",
+            "evento": "SEMANA SINFÔNICA",
+            "artista": "Maestro Doug",
+            "topic": "Orquestra Clássica",
+            "desc": "O Maestro Doug é conhecido por guiar sua orquestra sinfônica com precisão e paixão. Ao lado de músicos talentosos escolhidos a dedo, ele promete uma apresentação cheia de emoção e harmonia."
+        }
+    ],
+    "sobre": [
+        {
+            "title": "Falando um pouco mais sobre o Projeto 'Cantabile'.",
+            "imgs": [
+                "/imgs/sobre-img2.jpg",
+                "/imgs/sobre-img3.jpg",
+                "/imgs/sobre-img1.jpg"
+            ],
+            "texto": [
+                "O nome 'Cantabile', derivado da expressão italiana que significa 'cantável' ou 'como se fosse cantado', foi escolhido para traduzir a essência do projeto: a busca por performances que tocam a alma, evocando a pureza e a beleza da música clássica. O projeto se baseia na ideia de que cada nota musical deve soar como uma melodia capaz de envolver o público em uma experiência única e intimista.",
+                "O Projeto 'Cantabile' surge como uma iniciativa para promover a música clássica e instrumental em todas as suas formas. Reunindo músicos consagrados e jovens talentos em um só palco, o objetivo é não apenas encantar o público, mas também fomentar o desenvolvimento artístico de novas gerações. Com apresentações realizadas no prestigiado Teatro Municipal de Ribeirão Preto, o projeto busca levar ao público momentos inesquecíveis de conexão musical.",
+                "Durante o evento, serão apresentados repertórios cuidadosamente selecionados que celebram os grandes compositores da música clássica. Obras de Beethoven, Mozart, Tchaikovsky e outros gênios serão interpretadas por músicos experientes, com arranjos que exploram toda a riqueza e profundidade desses clássicos. Além disso, haverá espaço para peças que destacam instrumentos como o violoncelo, o violino e o piano, evidenciando a diversidade da música sinfônica.",
+                "O evento também terá apresentações especiais de jovens talentos, revelados por meio de uma rigorosa curadoria que garante a qualidade e a originalidade de cada performance. Estes jovens músicos terão a oportunidade de se apresentar ao lado de grandes nomes da música clássica, em um ambiente que promove o aprendizado e o intercâmbio de experiências artísticas.",
+                "Por fim, o Projeto 'Cantabile' busca não apenas entreter, mas também educar o público, mostrando a relevância atemporal da música clássica. Combinando tradição e inovação, o projeto convida a todos a mergulharem no universo sinfônico e redescobrirem a magia das melodias que marcaram a história da música mundial."
+            ]
+        }
+    ],
+    "eventday": [
+        {
+            "weekday": "Domingo",
+            "day": "Dom,",
+            "nDay": "Programação de Abertura",
+            "eventcard": [
+                {
+                    "hours": "14hrs",
+                    "show": "AMY & GUG, Dupla 'Sinforock' - Rock'n'roll sinfônico",
+                    "local": "Teatro Municipal, Salão 01"
+                },
+                {
+                    "hours": "16hrs",
+                    "show": "George, violonista clássico - Yehudi Menuhin Tribute",
+                    "local": "Teatro Municipal, Salão 02"
+                },
+                {
+                    "hours": "19hrs",
+                    "show": "Orquestra Jovem - Clássicos de Händel",
+                    "local": "Show de Intervalo - Praça de Alimentação"
+                },
+                {
+                    "hours": "20hrs",
+                    "show": "Mestre Doug - Maestro da Orquestra Clássica",
+                    "local": "Teatro Municipal, Salão 01"
+                }
+            ]
+        },
+        {
+            "weekday": "Segunda-feira",
+            "day": "Seg,",
+            "nDay": "Programação do 2º dia",
+            "eventcard": [
+                {
+                    "hours": "14hrs",
+                    "show": "Duo de Cordas - Duo de violoncelista e pianista",
+                    "local": "Teatro Municipal, Salão 01"
+                },
+                {
+                    "hours": "16hrs",
+                    "show": "Orquestra Jovem - Tributo a Mozart",
+                    "local": "Show de Intervalo - Praça de Alimentação"
+                },
+                {
+                    "hours": "17hrs",
+                    "show": "Quarteto de Cordas - Fantaisie a la Paganini",
+                    "local": "Teatro Municipal, Salão 01"
+                }
+            ]
+        },
+        {
+            "weekday": "Terça-feira",
+            "day": "Ter,",
+            "nDay": "Programação do 3º dia",
+            "eventcard": [
+                {
+                    "hours": "14hrs",
+                    "show": "O Trio Nostalgia - Clássicos do Jazz e Blues",
+                    "local": "Teatro Municipal, Salão 01"
+                },
+                {
+                    "hours": "16hrs",
+                    "show": "Coral Infantil - Escola Vira-Lobos",
+                    "local": "Show de Intervalo - Praça de Alimentação"
+                },
+                {
+                    "hours": "17hrs",
+                    "show": "Sinfonia das Nações - Dvořák e Tchaikovsky",
+                    "local": "Teatro Municipal, Salão 02"
+                }
+            ]
+        },
+        {
+            "weekday": "Quarta-feira",
+            "day": "Qua,",
+            "nDay": "Programação do 4º dia",
+            "eventcard": [
+                {
+                    "hours": "14hrs",
+                    "show": "Quarteto Harmonia - Tributo a Beethoven",
+                    "local": "Teatro Municipal, Salão 01"
+                },
+                {
+                    "hours": "16hrs",
+                    "show": "Coral Jovem - Escola Vira-Lobos",
+                    "local": "Show de Intervalo - Praça de Alimentação"
+                },
+                {
+                    "hours": "17hrs",
+                    "show": "Quarteto de Metais - Tributo a Gershwin",
+                    "local": "Teatro Municipal, Salão 02"
+                }
+            ]
+        },
+        {
+            "weekday": "Quinta-feira",
+            "day": "Qui,",
+            "nDay": "Programação do 5º dia",
+            "eventcard": [
+                {
+                    "hours": "14hrs",
+                    "show": "Corda Viva - Flamenco e Violão Clássico",
+                    "local": "Teatro Municipal, Salão 01"
+                },
+                {
+                    "hours": "16hrs",
+                    "show": "Coral Infantil - Escola Vira-Lobos",
+                    "local": "Show de Intervalo - Praça de Alimentação"
+                },
+                {
+                    "hours": "17hrs",
+                    "show": "Grupo Choros Brasileiros - Homenagem a Pixinguinha",
+                    "local": "Teatro Municipal, Salão 02"
+                }
+            ]
+        },
+        {
+            "weekday": "Sexta-feira",
+            "day": "Sex,",
+            "nDay": "Programação do 6º dia",
+            "eventcard": [
+                {
+                    "hours": "14hrs",
+                    "show": "Coral da Aurora - Música Sacra do Renascimento",
+                    "local": "Teatro Municipal, Salão 01"
+                },
+                {
+                    "hours": "16hrs",
+                    "show": "Concerto Orquestra Clássica - Coro dos Antigos",
+                    "local": "Teatro Municipal, Salão 02"
+                },
+                {
+                    "hours": "19hrs",
+                    "show": "Orquestra Jovem - Tributo a Mozart",
+                    "local": "Show de Intervalo - Praça de Alimentação"
+                },
+                {
+                    "hours": "20hrs",
+                    "show": "Coral dos Clássicos - Missa de Schubert",
+                    "local": "Teatro Municipal, Salão 01"
+                }
+            ]
+        },
+        {
+            "weekday": "Sábado",
+            "day": "Sáb,",
+            "nDay": "Programação de Encerramento",
+            "eventcard": [
+                {
+                    "hours": "14hrs",
+                    "show": "Trio Clássico - Brahms e os Mestres do Romantismo",
+                    "local": "Teatro Municipal, Salão 01"
+                },
+                {
+                    "hours": "16hrs",
+                    "show": "Orquestra Virtuosa - Sinfonias de Haydn",
+                    "local": "Teatro Municipal, Salão 02"
+                },
+                {
+                    "hours": "19hrs",
+                    "show": "Orquestra Jovem - Tributo a Tchaikovsky",
+                    "local": "Show de Intervalo - Praça de Alimentação"
+                },
+                {
+                    "hours": "20hrs",
+                    "show": "Mestre Doug - Maestro da Orquestra Clássica",
+                    "local": "Teatro Municipal, Salão 01"
+                }
+            ]
+        }
+    ],
+    "news": [
+        {
+            "img": "/imgs/orquestra.JPG",
+            "title": "O Maestro Doug Participará da Abertura e Encerramento da 'Semana Sinfônica'",
+            "slug": "o-maestro-doug-participara-da-abertura-e-encerramento-da-semana-sinfonica",
+            "subtitle": "Mestre Doug liderará dois momentos-chave do evento com repertórios distintos e emocionantes.",
+            "hour": " 20:00",
+            "texto": [
+                "Com anos de experiência e uma carreira consolidada, o Maestro Doug assume a responsabilidade de liderar tanto a abertura quanto o encerramento da 'Semana Sinfônica'. Sua participação, planejada minuciosamente, reflete a importância de conectar o público à música clássica em momentos de grande significado. O repertório de abertura será vibrante e triunfante, simbolizando o início de uma semana dedicada à arte e à emoção.",
+                "Já o encerramento terá um tom introspectivo e contemplativo, explorando temas de despedida e renovação. Segundo Doug, cada peça foi escolhida para criar uma experiência que vá além da audição, envolvendo os sentimentos mais profundos dos espectadores.",
+                "Para isso, o maestro contará com o apoio de músicos experientes, que trazem em suas execuções a precisão técnica e a paixão necessárias para realizar espetáculos inesquecíveis.",
+                "O público pode esperar momentos únicos, tanto na abertura quanto no encerramento, no Teatro Municipal de Ribeirão Preto, celebrando o poder da música clássica em unir gerações."
+            ]
+        },
+        {
+            "img": "/imgs/dupla.JPG",
+            "title": "AMY & GUG Prometem Agitar com o Melhor do Rock Sinfônico",
+            "slug": "amy-gug-prometem-agitar-com-o-melhor-do-rock-sinfonico",
+            "subtitle": "A fusão entre o rock e a música sinfônica será destaque no espetáculo da dupla.",
+            "hour": " 16:27",
+            "texto": [
+                "AMY & GUG, conhecidos por suas performances enérgicas e inovadoras, prometem trazer uma abordagem única ao rock sinfônico durante sua apresentação na 'Semana Sinfônica'. A dupla, que há anos experimenta misturar a intensidade do rock com a sofisticação das orquestras, prepara um repertório cuidadosamente elaborado para envolver o público.",
+                "Entre as músicas escolhidas estão clássicos do rock que ganharam novas dimensões através de arranjos sinfônicos. A guitarra poderosa de Amy e os vocais expressivos de Gug serão acompanhados por uma orquestra completa, garantindo uma experiência sonora rica e complexa.",
+                "O espetáculo é visto como uma ponte entre diferentes públicos. Para os fãs de rock, é uma oportunidade de ouvir seus clássicos favoritos de maneira inédita. Para os amantes da música clássica, é uma chance de testemunhar a versatilidade das orquestras em novos contextos.",
+                "AMY & GUG destacam que o show não será apenas uma performance musical, mas uma celebração da criatividade e da liberdade artística. \"Estamos misturando dois mundos para criar algo que não seja apenas diferente, mas que também ressoe profundamente em quem estiver assistindo\", afirmou a dupla."
+            ]
+        },
+        {
+            "img": "/imgs/violino.JPG",
+            "title": "Tributo a Yehudi Menuhin Será Destaque no Evento",
+            "slug": "tributo-a-yehudi-menuhin-sera-destaque-no-evento",
+            "subtitle": "George homenageará um dos maiores violinistas da história com uma apresentação marcante.",
+            "hour": " 17:45",
+            "texto": [
+                "George, reconhecido por sua técnica impecável e interpretação emocional, trará ao público da 'Semana Sinfônica' um tributo ao lendário Yehudi Menuhin. Sua apresentação promete resgatar obras que simbolizam o legado de Menuhin, uma das figuras mais reverenciadas da história da música clássica.",
+                "O concerto incluirá peças que destacam a versatilidade e a profundidade do violino, instrumento que Menuhin dominava com maestria. George também buscará trazer ao palco a essência do intérprete original, utilizando pausas, dinâmicas e articulações que refletem o estilo inconfundível de Menuhin.",
+                "A preparação para o espetáculo foi intensa, com George trabalhando ao lado de uma equipe de músicos experientes para garantir uma performance à altura da homenagem. Ensaios detalhados foram realizados para criar uma narrativa musical que conecte a audiência ao legado do homenageado.",
+                "A apresentação ocorrerá no Salão 02 do Teatro Municipal de Ribeirão Preto e é aguardada como um dos momentos mais emocionantes do evento. Para os amantes da música clássica, será uma oportunidade de se reconectar com o passado enquanto celebram a continuidade dessa arte sublime."
+            ]
+        },
+        {
+            "img": "/imgs/quarteto.jpg",
+            "title": "Quarteto de Cordas Apresentará a Obra 'Fantaisie a la Paganini'",
+            "slug": "quarteto-de-cordas-apresentara-a-obra-fantaisie-a-la-paganini",
+            "subtitle": "Uma peça desafiadora ganha vida nas mãos de músicos experientes.",
+            "hour": " 17:00",
+            "texto": [
+                "O Quarteto de Cordas levará ao público a obra 'Fantaisie a la Paganini', uma das mais exigentes do repertório camerístico. A peça, que é inspirada nos Caprichos de Paganini, combina elementos de virtuosismo técnico com uma carga emocional profunda.",
+                "Os músicos do quarteto têm se destacado por sua capacidade de trazer autenticidade às obras que executam, mantendo-se fiéis às intenções do compositor enquanto adicionam sua própria interpretação. Ensaios intensos e dedicação foram necessários para garantir que cada nota transmitisse a complexidade e a beleza da obra.",
+                "Durante o concerto, os ouvintes serão guiados por uma jornada sonora que oscila entre momentos de grande energia e passagens delicadas. O equilíbrio entre os músicos será fundamental para manter a coesão e o impacto emocional da apresentação.",
+                "A performance acontecerá no Salão 01 do Teatro Municipal de Ribeirão Preto, proporcionando ao público uma experiência íntima e envolvente. Para os amantes da música de câmara, este é um evento imperdível."
+            ]
+        },
+        {
+            "img": "/imgs/dvorak-tchaikovsky.jpg",
+            "title": "Sinfonia das Nações: Um Encontro Entre as Obras de Dvořák e Tchaikovsky",
+            "slug": "sinfonia-das-nacoes-um-encontro-entre-as-obras-de-dvorak-e-tchaikovsky",
+            "subtitle": "A conexão entre culturas musicais será celebrada em um concerto único.",
+            "hour": " 17:00",
+            "texto": [
+                "O concerto 'Sinfonia das Nações' promete unir dois dos maiores compositores da música clássica em uma celebração das conexões culturais e artísticas. O programa incluirá trechos da Sinfonia 'Do Novo Mundo', de Dvořák, e da 'Abertura 1812', de Tchaikovsky, obras que representam tanto inovação quanto tradição.",
+                "A escolha dessas peças reflete o desejo de explorar como diferentes culturas e estilos podem se complementar, criando uma experiência musical rica e diversificada. Cada obra será interpretada com um olhar atento às suas particularidades, destacando o diálogo entre os mundos musical e histórico.",
+                "A orquestra responsável por este concerto tem um histórico de performances de alto nível, e sua capacidade de navegar entre diferentes estilos promete tornar este evento inesquecível. Ensaios minuciosos foram realizados para garantir uma transição fluida entre as peças.",
+                "A apresentação ocorrerá no Salão 02 do Teatro Municipal de Ribeirão Preto e será um ponto alto da 'Semana Sinfônica', reafirmando o poder da música em transcender barreiras e unir pessoas."
+            ]
+        },
+        {
+            "img": "/imgs/coralaurora.jpg",
+            "title": "Coral da Aurora Apresentará Músicas Sacras do Renascimento",
+            "slug": "coral-da-aurora-apresentara-musicas-sacras-do-renascimento",
+            "subtitle": "O grupo levará o público a uma jornada espiritual pelas obras sacras mais emblemáticas.",
+            "hour": " 14:00",
+            "texto": [
+                "O Coral da Aurora apresentará um repertório dedicado às músicas sacras do Renascimento, oferecendo ao público uma experiência musical enriquecedora e contemplativa. Com harmonias precisas e arranjos bem elaborados, o grupo promete transmitir a espiritualidade e a profundidade emocional das composições escolhidas.",
+                "As músicas selecionadas foram cuidadosamente escolhidas para representar a grandiosidade e a riqueza cultural dessa época. Cada performance será executada com uma atenção meticulosa aos detalhes, garantindo que a essência das obras seja fielmente capturada.",
+                "Os ensaios para esta apresentação envolveram um estudo detalhado das partituras, além de técnicas vocais que ressaltam a clareza e a potência do canto coral. A preparação envolveu também uma conexão com os significados históricos e religiosos das obras.",
+                "A apresentação será realizada no Salão 01 do Teatro Municipal de Ribeirão Preto e é aguardada como um dos momentos mais reflexivos da 'Semana Sinfônica'."
+            ]
+        },
+        {
+            "img": "/imgs/coroantigos.jpg",
+            "title": "Concerto 'Coro dos Antigos' Promete Resgatar Grandes Clássicos",
+            "slug": "concerto-coro-dos-antigos-promete-resgatar-grandes-classicos",
+            "subtitle": "A Orquestra Clássica trará um repertório memorável ao penúltimo dia do evento.",
+            "hour": " 18:00",
+            "texto": [
+                "No penúltimo dia da 'Semana Sinfônica', o concerto 'Coro dos Antigos', apresentado pela Orquestra Clássica, promete revisitar grandes clássicos do repertório coral. Com um enfoque especial em obras que marcaram a história da música, a apresentação contará com interpretações emocionantes e bem elaboradas.",
+                "As escolhas de repertório incluem composições que celebram a harmonia entre os diferentes timbres vocais e instrumentais, proporcionando ao público uma viagem no tempo através da música. Cada peça será apresentada com uma atenção cuidadosa às dinâmicas e nuances.",
+                "O maestro e os músicos trabalharam de forma colaborativa para garantir uma performance que transmita tanto a técnica quanto a emoção contida nas obras. Ensaio após ensaio, cada detalhe foi ajustado para criar um impacto duradouro no público.",
+                "A apresentação será realizada no Salão 02 do Teatro Municipal de Ribeirão Preto e promete ser um dos destaques do evento, atraindo tanto os amantes da música clássica quanto aqueles que buscam experiências culturais marcantes."
+            ]
+        },
+        {
+            "img": "/imgs/jovenstalentos.jpg",
+            "title": "Shows de Intervalo Destacarão Jovens Talentos Musicais",
+            "slug": "shows-de-intervalo-destacarao-jovens-talentos-musicais",
+            "subtitle": "Entre as apresentações principais, jovens músicos brilharão com tributos a grandes compositores.",
+            "hour": " 15:30",
+            "texto": [
+                "Durante os intervalos das apresentações principais, o público será presenteado com shows realizados por jovens talentos musicais. Essas performances, que incluem tributos a Mozart, Tchaikovsky e Händel, visam mostrar a habilidade e o potencial das novas gerações.",
+                "Os participantes, provenientes de escolas de música da região, tiveram a oportunidade de participar de workshops e ensaios que aprimoraram suas habilidades e desenvolveram sua confiança no palco. Essas apresentações são uma plataforma para que jovens músicos mostrem seu talento a um público mais amplo.",
+                "O repertório escolhido é diversificado, garantindo que cada apresentação ofereça uma experiência única ao público. Desde obras marcantes do período barroco até peças românticas, os jovens músicos demonstrarão sua versatilidade e dedicação à música.",
+                "Os shows de intervalo são uma iniciativa do 'Projeto Cantabile', reafirmando seu compromisso em apoiar e incentivar o desenvolvimento cultural e artístico da região."
+            ]
+        }
+    ]
+}
