@@ -8,6 +8,14 @@ O site exibe informações das apresentações de cada dia e notícias relaciona
 
 ---
 
+## 🎨 Protótipo no Figma
+
+Foi criado no Figma o design do projeto, acesse o protótipo no link abaixo:
+
+- [Protótipo no Figma](https://link-do-seu-prototipo.com)
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 - [React](https://reactjs.org/)
