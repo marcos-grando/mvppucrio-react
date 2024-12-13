@@ -1,4 +1,4 @@
-### (curso: Desenvolvimento Full Stack - PUC-Rio )
+### Desenvolvimento Full Stack - PUC-Rio
 # MVP Front End com React, 
  
 # Projeto Cantabile 🎻
