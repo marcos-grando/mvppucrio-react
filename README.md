@@ -53,17 +53,17 @@ Podemos dividir o projeto em 4 principais partes:
 mvppucrio/
 ├── estilos
 │   ├── estilo-banner/      # estilização da section .banner
+│   ├── estilo-sobre/       # estilização da section .sobre e da section/page .sobreall
 │   ├── estilo-calendar/    # estilização da section .calendar
 │   ├── estilo-newsnow/     # estilização da section .newsnow
 │   ├── estilo-singlenews/  # estilização da section/page .singlenews
-│   ├── estilo-sobre/       # estilização da section .sobre e da section/page .sobreall
 │   └── style.css           # estilos gerais (inclui footer)
 ├── src
 │   ├── components          # Componentes reutilizáveis
-│   │   ├── banner/         # Componentes para o banner
-│   │   ├── sobre/          # Componentes para a seção sobre
-│   │   ├── calendar/       # Componentes para a seção do calendário
-│   │   ├── newsnow/        # Componentes para a seção de notícias
+│   │   ├── banner/         # Componentes específicos para o banner
+│   │   ├── sobre/          # Componentes específicos para a seção sobre
+│   │   ├── calendar/       # Componentes específicos para a seção do calendário
+│   │   ├── newsnow/        # Componentes específicos para a seção de notícias
 │   │   ├── Arrows.jsx 
 │   │   ├── Footer.jsx 
 │   │   ├── Header.jsx 
@@ -73,9 +73,9 @@ mvppucrio/
 │   │   └── Title.jsx 
 │   ├── App.jsx             # Componente principal
 │   └── index.jsx           # Ponto de entrada da aplicação
-├── public                  # Arquivos públicos (favicon, etc.)
-├── package.json            # Dependências do projeto
-└── vite.config.js          # Configuração do Vite
+├── public                  # Arquivos públicos (favicon, imgs, etc)
+├── package.json            # Dependências
+└── vite.config.js          # Configs do Vite
 ```
 
 OBS: Em /public, há presença de .htaccess e 404.html, utilizados enquanto tentava aprender a hospedar esse projeto no ar (por curiosidade).
