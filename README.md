@@ -12,7 +12,7 @@ O site exibe informações das apresentações de cada dia e notícias relaciona
 
 Foi criado no Figma o design do projeto, acesse o protótipo no link abaixo:
 
-- [Protótipo no Figma](https://link-do-seu-prototipo.com)
+- [Protótipo no Figma](https://www.figma.com/design/BHbRzrouv82FoPKEBHjRyO/Cantabile?node-id=0-1&t=7w4BJCiWRhwYdjfh-1)
 
 ---
 
