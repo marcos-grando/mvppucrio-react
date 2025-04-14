@@ -24,7 +24,7 @@ function App() {
                 setEventday(data.eventday)
                 setNews(data.news)
             });
-    }, []);
+    }, []); 
 
     return (
         <div className="app">
