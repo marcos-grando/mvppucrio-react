@@ -59,10 +59,10 @@ function App() {
     const clickNews = (newsSelect) => {
         setSelectNews(newsSelect)
     };
-    
+
 
     return (
-        <Router basename="/">
+        <>
             <ScrollToTop />
             <div className="app">
                 <Routes>
@@ -88,7 +88,7 @@ function App() {
                 </Routes>
                 <Footer />
             </div>
-        </Router>
+        </>
     );
 }
 
