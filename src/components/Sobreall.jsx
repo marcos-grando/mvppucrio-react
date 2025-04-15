@@ -1,5 +1,5 @@
 import React from "react";
-import { data, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Title from "./Title";
 import Slide from "./sobre/Slide";
 
@@ -13,10 +13,10 @@ function Sobreall({ dataJson, onlypage }) {
             <div className="onlypage">
                 <header>
                     <nav>
-                        <a href="/">Home</a>
-                        <a href="/sobre">Sobre Nós</a>
-                        <a href="/calendario">Calendário</a>
-                        <a href="/noticias">Notícias</a>
+                        <Link to="/">Home</Link>
+                        <Link to="/sobre">Sobre Nós</Link>
+                        <Link to="/calendario">Calendário</Link>
+                        <Link to="/noticias">Notícias</Link>
                     </nav>
                 </header>
                 <img src="/imgs/sobre-img2.jpg" alt="" />

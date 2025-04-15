@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Footer() {
+    const navigate = useNavigate();
     const clickNav = (rota) => {
-        window.open(`${rota}`, "_blank");
+        navigate(rota);
     };
 
     return (

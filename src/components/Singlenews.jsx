@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Singlenews({ news }) {
     if (!news) {
@@ -10,10 +10,10 @@ function Singlenews({ news }) {
         <section className="singlenews">
             <header>
                 <nav>
-                    <a href="/">Home</a>
-                    <a href="/sobre">Sobre Nós</a>
-                    <a href="/calendario">Calendário</a>
-                    <a href="/noticias">Notícias</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/sobre">Sobre Nós</Link>
+                    <Link to="/calendario">Calendário</Link>
+                    <Link to="/noticias">Notícias</Link>
                     <p></p>
                 </nav>
             </header>
