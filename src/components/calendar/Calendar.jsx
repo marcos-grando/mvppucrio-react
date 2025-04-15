@@ -30,13 +30,13 @@ function Calendar({ dataJson, onlypage }) {
                         <div className="onlypage">
                             <header>
                                 <nav>
-                                    <a href="/">Home</a>
-                                    <a href="/sobre">Sobre Nós</a>
-                                    <a href="/calendario">Calendário</a>
-                                    <a href="/noticias">Notícias</a>
+                                    <Link to="/">Home</Link>
+                                    <Link to="/sobre">Sobre Nós</Link>
+                                    <Link to="/calendario">Calendário</Link>
+                                    <Link to="/noticias">Notícias</Link>
                                 </nav>
                             </header>
-                            <img src="/imgs/calendar.jpg" style={{objectPosition: 'center'}} alt="" />
+                            <img src="/imgs/calendar.jpg" style={{ objectPosition: 'center' }} alt="" />
                         </div>
                     )
                     :

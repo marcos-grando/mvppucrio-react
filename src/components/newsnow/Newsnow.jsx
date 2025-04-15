@@ -20,16 +20,16 @@ function Newsnow({ dataJson, onClickNews, onlypage }) {
                         <div className="onlypage">
                             <header>
                                 <nav>
-                                    <a href="/">Home</a>
-                                    <a href="/sobre">Sobre Nós</a>
-                                    <a href="/calendario">Calendário</a>
-                                    <a href="/noticias">Notícias</a>
+                                    <Link to="/">Home</Link>
+                                    <Link to="/sobre">Sobre Nós</Link>
+                                    <Link to="/calendario">Calendário</Link>
+                                    <Link to="/noticias">Notícias</Link>
                                 </nav>
                             </header>
                             <img src="/imgs/news.jpg" alt="" />
                         </div>
-                    ) 
-                    : 
+                    )
+                    :
                     ''
             }
             <div className="newsnow-container">
