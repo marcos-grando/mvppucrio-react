@@ -1,4 +1,11 @@
 {
+    "routes": [
+      { "src": "^/$", "dest": "/index.html" },
+      { "src": "^/sobre$", "dest": "/index.html" },
+      { "src": "^/noticias$", "dest": "/index.html" },
+      { "src": "^/noticias/.*$", "dest": "/index.html" },
+      { "src": "^/calendario$", "dest": "/index.html" }
+    ],
     "rewrites": [
         {
             "source": "/(.*)",
