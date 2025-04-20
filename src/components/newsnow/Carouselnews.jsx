@@ -2,7 +2,7 @@ import React from "react";
 import News from "./News";
 import Arrows from "../Arrows";
 
-function Carouselnews({ dataJson, onClickNews }) {
+function Carouselnews({ dataJson }) {
     const showSlider = (type) => {
         const slideDom = document.querySelector('.news-slide .slide');
         const butArrows = document.querySelector('.news-slide .arrows');
@@ -45,7 +45,7 @@ function Carouselnews({ dataJson, onClickNews }) {
             <div className="slide-container">
                 <div className="slide">
                     {Array.from({ length: 6 }).map((_, index) => (
-                        <News key={index} onClickNews={() => onClickNews(dataJson[index])} img={dataJson[index]?.img} title={dataJson[index]?.title} date='false' />
+                        <News key={index} slugNews={dataJson[index]?.slug} img={dataJson[index]?.img} title={dataJson[index]?.title} date='false' />
                     ))}
                 </div>
             </div>

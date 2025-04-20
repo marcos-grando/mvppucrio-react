@@ -15,8 +15,6 @@ function App() {
     const [sobre, setSobre] = useState([{ imgs: [], texto: [], title: "" }]);
     const [eventday, setEventday] = useState([]);
     const [news, setNews] = useState([]);
-    const [updatedNews, setUpdatedNews] = useState([]);
-    const [selectNews, setSelectNews] = useState(null);
 
     const ScrollToTop = () => {
         const { pathname } = useLocation();
@@ -36,30 +34,24 @@ function App() {
                 setHeaderLinks(data.headerLinks)
                 setSobre(data.sobre)
                 setEventday(data.eventday)
-                setNews(data.news)
                 updateNewsDates(data.news);
             });
     }, []);
 
     const updateNewsDates = (newsList) => {
         const currentMonth = new Date().getMonth();
-        const updatedNewsList = newsList.map((newsItem, index) => {
+        const allNewsList = newsList.map((newsItem, index) => {
             const postDate = new Date();
-            postDate.setDate(postDate.getDate() - 4 * index);
+            postDate.setDate(postDate.getDate() - 4 * (index + 1));
             return {
                 ...newsItem,
                 date: `Notícia de ${postDate.getDate().toString().padStart(2, '0')}/${(postDate.getMonth() + 1).toString().padStart(2, '0')}/${postDate.getFullYear()} às ${newsItem.hour}`
             };
         });
-        setUpdatedNews(updatedNewsList);
+        setNews(allNewsList);
     };
     // Função para iterar aos objetos da lista de notícias (.json);
     // Criando uma nova data fictícia à depender do dia que usuário está acessando;
-
-    const clickNews = (newsSelect) => {
-        setSelectNews(newsSelect)
-    };
-
 
     return (
         <>
@@ -74,14 +66,14 @@ function App() {
                                 <Banner dataJson={carouselItems} />
                                 <Sobre dataJson={sobre} />
                                 <Calendar dataJson={eventday} />
-                                <Newsnow dataJson={updatedNews} onClickNews={clickNews} />
+                                <Newsnow dataJson={news} />
                             </>
                         }
                     />
                     <Route path="/calendario" element={<Calendar dataJson={eventday} onlypage='true' />} />
-                    <Route path="/noticias" element={<Newsnow dataJson={updatedNews} onClickNews={clickNews} onlypage='true' />} />
+                    <Route path="/noticias" element={<Newsnow dataJson={news} onlypage='true' />} />
                     <Route path="/sobre" element={<Sobreall dataJson={sobre} onlypage='true' />} />
-                    <Route path="/noticias/:slug" element={<Singlenews news={selectNews} />} />
+                    <Route path="/noticias/:slug" element={<Singlenews />} />
 
                     <Route path="*" element={<Navigate to="/" />} />
 

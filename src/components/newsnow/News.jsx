@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function News({ img, title, date, onClickNews }) {
+function News({ img, slugNews, title, date }) {
     return (
-        <div className="news" onClick={onClickNews}>
+        <Link className="news" to={`/noticias/${slugNews}`}>
             <div className="news-img">
                 <img src={img} alt="" />
             </div>
@@ -10,7 +11,7 @@ function News({ img, title, date, onClickNews }) {
                 <p>{title}</p>
                 {date === 'false' ? '' : <p> <span className="bi bi-clock"></span> {date} </p>}
             </div>
-        </div>
+        </Link>
     )
 }
 

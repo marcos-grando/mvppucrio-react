@@ -1,16 +1,10 @@
 import React from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Carouselnews from "./Carouselnews";
 import Allnews from "./Allnews";
 import Title from "../Title";
 
-function Newsnow({ dataJson, onClickNews, onlypage }) {
-    const nav = useNavigate();
-    const clickNews = (selectNews) => {
-        const slug = selectNews.slug || selectNews.title.replace(/\s+/g, '-').toLowerCase();
-        onClickNews(selectNews);
-        nav(`/noticias/${slug}`);
-    };
+function Newsnow({ dataJson, onlypage }) {
 
     return (
         <section className="newsnow" style={onlypage === 'true' ? { backgroundColor: 'var(--cor66)' } : undefined}>
@@ -34,8 +28,8 @@ function Newsnow({ dataJson, onClickNews, onlypage }) {
             }
             <div className="newsnow-container">
                 <Title title="NOTÍCIAS" onlypage={onlypage} />
-                <Carouselnews dataJson={dataJson} onClickNews={clickNews} />
-                <Allnews dataJson={dataJson} onClickNews={clickNews} />
+                <Carouselnews dataJson={dataJson} />
+                <Allnews dataJson={dataJson}  />
             </div>
         </section>
     )

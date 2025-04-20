@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import News from "./News";
 
-function Allnews({ dataJson, onClickNews }) {
+function Allnews({ dataJson }) {
     const [showNews, setShowNews] = useState(3);
     const loadMore = () => {
         setShowNews((countShow) => countShow + 3);
@@ -12,7 +12,7 @@ function Allnews({ dataJson, onClickNews }) {
             <p className="ptitle">Todas Notícias</p>
             {dataJson?.slice(0, showNews).map((news, index) => (
                 <div className="each-allnews" key={index}>
-                    <News onClickNews={() => onClickNews(news)} img={news.img} title={news.title} date={news.date} />
+                    <News slugNews={news.slug} img={news.img} title={news.title} date={news.date} />
                 </div>
             ))}
 
